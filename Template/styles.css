@@ -1,0 +1,24 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.page-break {
+  page-break-after: always;
+}
+
